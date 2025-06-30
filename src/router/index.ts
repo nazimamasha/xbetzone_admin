@@ -79,40 +79,49 @@ const routes: Array<RouteRecordRaw> = [
           breadcrumbs: ["Withdraws"],
         },
       },
+      // {
+      //   path: "/games/prematches",
+      //   name: "games-prematches",
+      //   component: () => import("@/views/games/Prematches.vue"),
+      //   meta: {
+      //     pageTitle: "Prematches",
+      //     breadcrumbs: ["Games", "Prematches"],
+      //   },
+      // },
+      // {
+      //   path: "/games/inplays",
+      //   name: "games-inplays",
+      //   component: () => import("@/views/games/Inplays.vue"),
+      //   meta: {
+      //     pageTitle: "Inplays",
+      //     breadcrumbs: ["Games", "Inplays"],
+      //   },
+      // },
+      // {
+      //   path: "/games/esports",
+      //   name: "games-esports",
+      //   component: () => import("@/views/games/Esports.vue"),
+      //   meta: {
+      //     pageTitle: "Esports",
+      //     breadcrumbs: ["Games", "Esports"],
+      //   },
+      // },
+      // {
+      //   path: "/games/inplayesports",
+      //   name: "games-inplayesports",
+      //   component: () => import("@/views/games/EsportsInplays.vue"),
+      //   meta: {
+      //     pageTitle: "Esports (Inplay)",
+      //     breadcrumbs: ["Games", "Esports (Inplay)"],
+      //   },
+      // },
       {
-        path: "/games/prematches",
-        name: "games-prematches",
-        component: () => import("@/views/games/Prematches.vue"),
+        path: "/games/slot",
+        name: "games-slot",
+        component: () => import("@/views/games/Slot.vue"),
         meta: {
-          pageTitle: "Prematches",
-          breadcrumbs: ["Games", "Prematches"],
-        },
-      },
-      {
-        path: "/games/inplays",
-        name: "games-inplays",
-        component: () => import("@/views/games/Inplays.vue"),
-        meta: {
-          pageTitle: "Inplays",
-          breadcrumbs: ["Games", "Inplays"],
-        },
-      },
-      {
-        path: "/games/esports",
-        name: "games-esports",
-        component: () => import("@/views/games/Esports.vue"),
-        meta: {
-          pageTitle: "Esports",
-          breadcrumbs: ["Games", "Esports"],
-        },
-      },
-      {
-        path: "/games/inplayesports",
-        name: "games-inplayesports",
-        component: () => import("@/views/games/EsportsInplays.vue"),
-        meta: {
-          pageTitle: "Esports (Inplay)",
-          breadcrumbs: ["Games", "Esports (Inplay)"],
+          pageTitle: "Slot",
+          breadcrumbs: ["Games", "Slot"],
         },
       },
       {
@@ -125,21 +134,39 @@ const routes: Array<RouteRecordRaw> = [
         },
       },
       {
-        path: "/bets/sports",
-        name: "bets-sports",
-        component: () => import("@/views/bets/BetSports.vue"),
+        path: "/games/instant",
+        name: "games-instant",
+        component: () => import("@/views/games/Instant.vue"),
         meta: {
-          pageTitle: "Betting (Sports)",
-          breadcrumbs: ["Bets", "Sports"],
+          pageTitle: "Instant Games",
+          breadcrumbs: ["Games", "Instant Games"],
         },
       },
+      // {
+      //   path: "/bets/sports",
+      //   name: "bets-sports",
+      //   component: () => import("@/views/bets/BetSports.vue"),
+      //   meta: {
+      //     pageTitle: "Betting (Sports)",
+      //     breadcrumbs: ["Bets", "Sports"],
+      //   },
+      // },
+      // {
+      //   path: "/bets/esports",
+      //   name: "bets-esports",
+      //   component: () => import("@/views/bets/BetEsports.vue"),
+      //   meta: {
+      //     pageTitle: "Betting (Esports)",
+      //     breadcrumbs: ["Bets", "Esports"],
+      //   },
+      // },
       {
-        path: "/bets/esports",
-        name: "bets-esports",
-        component: () => import("@/views/bets/BetEsports.vue"),
+        path: "/bets/slot",
+        name: "bets-slot",
+        component: () => import("@/views/bets/Slot.vue"),
         meta: {
-          pageTitle: "Betting (Esports)",
-          breadcrumbs: ["Bets", "Esports"],
+          pageTitle: "Betting (Slot)",
+          breadcrumbs: ["Bets", "Slot"],
         },
       },
       {
@@ -149,6 +176,15 @@ const routes: Array<RouteRecordRaw> = [
         meta: {
           pageTitle: "Betting (Casino)",
           breadcrumbs: ["Bets", "Casino"],
+        },
+      },
+      {
+        path: "/bets/instant",
+        name: "bets-instant",
+        component: () => import("@/views/bets/Instant.vue"),
+        meta: {
+          pageTitle: "Betting (Instant Games)",
+          breadcrumbs: ["Bets", "Instant Games"],
         },
       },
       {
@@ -189,42 +225,42 @@ const routes: Array<RouteRecordRaw> = [
           breadcrumbs: ["Reports"],
         },
       },
-      {
-        path: "/setting/maintenace",
-        name: "setting-maintenance",
-        component: () => import("@/views/setting/Maintenance.vue"),
-        meta: {
-          pageTitle: "Maintenance",
-          breadcrumbs: ["Setting", "Maintenance"],
-        },
-      },
-      {
-        path: "/setting/betting",
-        name: "setting-betting",
-        component: () => import("@/views/setting/BetSetting.vue"),
-        meta: {
-          pageTitle: "Bet Setting",
-          breadcrumbs: ["Setting", "Betting"],
-        },
-      },
-      {
-        path: "/setting/userlevel",
-        name: "setting-userlevel",
-        component: () => import("@/views/setting/UserLevelSetting.vue"),
-        meta: {
-          pageTitle: "User Level Setting",
-          breadcrumbs: ["Setting", "User Level"],
-        },
-      },
-      {
-        path: "/setting/bonus",
-        name: "setting-bonus",
-        component: () => import("@/views/setting/BonusSetting.vue"),
-        meta: {
-          pageTitle: "Bonus Setting",
-          breadcrumbs: ["Setting", "Bonus"],
-        },
-      },
+      // {
+      //   path: "/setting/maintenace",
+      //   name: "setting-maintenance",
+      //   component: () => import("@/views/setting/Maintenance.vue"),
+      //   meta: {
+      //     pageTitle: "Maintenance",
+      //     breadcrumbs: ["Setting", "Maintenance"],
+      //   },
+      // },
+      // {
+      //   path: "/setting/betting",
+      //   name: "setting-betting",
+      //   component: () => import("@/views/setting/BetSetting.vue"),
+      //   meta: {
+      //     pageTitle: "Bet Setting",
+      //     breadcrumbs: ["Setting", "Betting"],
+      //   },
+      // },
+      // {
+      //   path: "/setting/userlevel",
+      //   name: "setting-userlevel",
+      //   component: () => import("@/views/setting/UserLevelSetting.vue"),
+      //   meta: {
+      //     pageTitle: "User Level Setting",
+      //     breadcrumbs: ["Setting", "User Level"],
+      //   },
+      // },
+      // {
+      //   path: "/setting/bonus",
+      //   name: "setting-bonus",
+      //   component: () => import("@/views/setting/BonusSetting.vue"),
+      //   meta: {
+      //     pageTitle: "Bonus Setting",
+      //     breadcrumbs: ["Setting", "Bonus"],
+      //   },
+      // },
 
       {
         path: "/crafted/pages/profile",

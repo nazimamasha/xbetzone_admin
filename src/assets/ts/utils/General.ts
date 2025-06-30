@@ -36,7 +36,7 @@ export function dashCurrencyFormat(value: number, symbol = "", precision = 0) {
 }
 
 export function currencyFormat(src, precision = 2, formatType = 1) {
-  let symbol = "R$";
+  let symbol = "$";
 
   if (src == null || src == undefined) return "?";
   let strSrc = src.toString();

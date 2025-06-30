@@ -71,7 +71,7 @@
           {{ user.asaas_cpfCnpj }}
         </template> -->
         <template v-slot:balance="{ row: user }">
-          {{ currencyFormat(user.cash, 2) }},
+          <!-- {{ currencyFormat(user.cash, 2) }}, -->
           {{ currencyFormat(user.casino, 2) }}
         </template>
         <template v-slot:bonus="{ row: user }">

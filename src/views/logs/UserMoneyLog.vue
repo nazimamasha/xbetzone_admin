@@ -119,6 +119,31 @@
             v-if="log.t_type === 'casino'"
             >{{ log.t_type }}</span
           >
+          <span
+            class="badge badge-primary text-capitalize"
+            v-else-if="[5].includes(log.type)"
+            >{{ 'Sports' }}</span
+          >
+          <span
+            class="badge badge-primary text-capitalize"
+            v-else-if="[1].includes(log.type)"
+            >{{ 'Deposit' }}</span
+          >
+          <span
+            class="badge badge-primary text-capitalize"
+            v-else-if="[2].includes(log.type)"
+            >{{ 'Withdraw' }}</span
+          >
+          <span
+            class="badge badge-success text-capitalize"
+            v-else-if="[15, 16,17 ].includes(log.type)"
+            >{{ 'Casino' }}</span
+          > 
+          <span
+            class="badge badge-danger text-capitalize"
+            v-else-if="[20].includes(log.type)"
+            >{{ 'Admin' }}</span
+          >
         </template>
         <template v-slot:type="{ row: log }">
           <span class="badge badge-secondary">{{

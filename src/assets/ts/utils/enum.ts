@@ -322,3 +322,18 @@ export const CasinoProviders = [
   "XProgaming",
   "Spinmatic",
 ];
+
+export const SlotProviders = [
+  "Pragmatic Play",
+  "Pocket Games Soft",
+  "Booongo",
+  "Playson",
+  "Habanero",
+  "JiLi",
+  "PlayStar",
+  "XGaming",
+];
+
+export const InstantProviders = [
+  "Spribe",
+];

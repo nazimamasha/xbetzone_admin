@@ -2,7 +2,7 @@ import type LayoutConfigTypes from "@/layouts/default-layout/config/types";
 
 const config: LayoutConfigTypes = {
   general: {
-    mode: "system",
+    mode: "dark",
     primaryColor: "#50CD89",
     pageWidth: "default",
     layout: "dark-sidebar",

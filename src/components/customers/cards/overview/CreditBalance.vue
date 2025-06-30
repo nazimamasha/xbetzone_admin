@@ -28,7 +28,8 @@
     <!--begin::Card body-->
     <div class="card-body pt-0">
       <div class="fw-bold fs-2">
-        ⚽ {{ currencyFormat(cash) }}, 🎰 {{ currencyFormat(casino) }}, 🎉
+        <!-- ⚽ {{ currencyFormat(cash) }},  -->
+        🎰 {{ currencyFormat(casino) }}, 🎉
         {{ currencyFormat(point) }}
 
         <div class="fs-7 fw-normal text-muted">

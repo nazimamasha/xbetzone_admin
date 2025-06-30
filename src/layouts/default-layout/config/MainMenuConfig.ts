@@ -61,25 +61,33 @@ const MainMenuConfig: Array<MenuItem> = [
         keenthemesIcon: "dribbble",
         bootstrapIcon: "bi-dribbble",
         sub: [
+          // {
+          //   heading: "Prematches",
+          //   route: "/games/prematches",
+          // },
+          // {
+          //   heading: "Inplays",
+          //   route: "/games/inplays",
+          // },
+          // {
+          //   heading: "ESports",
+          //   route: "/games/esports",
+          // },
+          // {
+          //   heading: "ESports (Inplay)",
+          //   route: "/games/inplayesports",
+          // },
           {
-            heading: "Prematches",
-            route: "/games/prematches",
-          },
-          {
-            heading: "Inplays",
-            route: "/games/inplays",
-          },
-          {
-            heading: "ESports",
-            route: "/games/esports",
-          },
-          {
-            heading: "ESports (Inplay)",
-            route: "/games/inplayesports",
+            heading: "Slot",
+            route: "/games/slot",
           },
           {
             heading: "Casino",
             route: "/games/casino",
+          },
+          {
+            heading: "Instant",
+            route: "/games/instant",
           },
         ],
       },
@@ -89,17 +97,25 @@ const MainMenuConfig: Array<MenuItem> = [
         keenthemesIcon: "medal-star",
         bootstrapIcon: "bi-medal-star",
         sub: [
+          // {
+          //   heading: "Sports",
+          //   route: "/bets/sports",
+          // },
+          // {
+          //   heading: "ESports",
+          //   route: "/bets/esports",
+          // },
           {
-            heading: "Sports",
-            route: "/bets/sports",
-          },
-          {
-            heading: "ESports",
-            route: "/bets/esports",
+            heading: "Slot",
+            route: "/bets/slot",
           },
           {
             heading: "Casino",
             route: "/bets/casino",
+          },
+          {
+            heading: "Instant",
+            route: "/bets/instant",
           },
         ],
       },
@@ -140,36 +156,36 @@ const MainMenuConfig: Array<MenuItem> = [
       },
     ],
   },
-  {
-    heading: "Setting",
-    route: "/setting",
-    pages: [
-      {
-        heading: "Maintenance",
-        route: "/setting/maintenace",
-        keenthemesIcon: "switch",
-        bootstrapIcon: "bi-layers",
-      },
-      {
-        heading: "Betting",
-        route: "/setting/betting",
-        keenthemesIcon: "cup",
-        bootstrapIcon: "bi-layers",
-      },
-      {
-        heading: "User Level",
-        route: "/setting/userlevel",
-        keenthemesIcon: "setting-4",
-        bootstrapIcon: "bi-layers",
-      },
-      {
-        heading: "Bonus",
-        route: "/setting/bonus",
-        keenthemesIcon: "discount",
-        bootstrapIcon: "bi-discount",
-      },
-    ],
-  },
+  // {
+  //   heading: "Setting",
+  //   route: "/setting",
+  //   pages: [
+  //     {
+  //       heading: "Maintenance",
+  //       route: "/setting/maintenace",
+  //       keenthemesIcon: "switch",
+  //       bootstrapIcon: "bi-layers",
+  //     },
+  //     {
+  //       heading: "Betting",
+  //       route: "/setting/betting",
+  //       keenthemesIcon: "cup",
+  //       bootstrapIcon: "bi-layers",
+  //     },
+  //     {
+  //       heading: "User Level",
+  //       route: "/setting/userlevel",
+  //       keenthemesIcon: "setting-4",
+  //       bootstrapIcon: "bi-layers",
+  //     },
+  //     {
+  //       heading: "Bonus",
+  //       route: "/setting/bonus",
+  //       keenthemesIcon: "discount",
+  //       bootstrapIcon: "bi-discount",
+  //     },
+  //   ],
+  // },
   // {
   //   heading: "craft",
   //   route: "/crafted",
